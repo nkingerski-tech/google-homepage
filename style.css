@@ -23,12 +23,10 @@ img{
     margin: 0 auto;
     width:482px; 
     transition: box-shadow .3s;
+    padding: 20px;
 }
 .search input: hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
-}
-.ulleft{
-    text-align: left;
 }
 a:link{
     color: black;
@@ -37,7 +35,14 @@ a:link{
 a:hover{
     text-decoration: underline;
 }
+ul{
+    list-stye-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 li{
+    float: left;
     display: inline;
     font-family: arial;
     text-decoration: none;
