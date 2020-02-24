@@ -49,3 +49,42 @@ li{
     list-style-type: none;
     padding: 10px;
 }
+button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttons{
+    text-align: center;
+}
+.midtext{
+    line-height: 28px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+.footer{
+    font-size: 13px;
+    display: block;
+    bottom: 0;
+    height: 37px;
+    position: fixed;
+    width: 100%;
+    background:#f2f2f2;
+    line-height: 20px;
+    min=width: 980px;
+    border-top: 1px solid #e4e4e4;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    padding-left: 27px;
+}
